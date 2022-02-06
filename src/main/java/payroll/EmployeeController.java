@@ -16,7 +16,7 @@ public class EmployeeController {
     //Aggregate root
     //tag::get-aggregate-root[] ;
     @GetMapping("/employees")
-    @CrossOrigin(origins = "http://localhost:3000") // this allows react app to reach the spring app
+    //@CrossOrigin(origins = "http://localhost:3000") // this allows react app to reach the spring app
     List<Employee> all (){
         return repository.findAll();
     }
