@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## Front demo code ##
+/front-demo/
+how_to_build_rpc.pdf
